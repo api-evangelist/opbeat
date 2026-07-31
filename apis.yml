@@ -1,4 +1,16 @@
 aid: opbeat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opbeat.png
 name: opbeat
 description: opbeat is a company surfaced as a portfolio company of balderton-capital, creandum and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -11,9 +23,14 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'opbeat.com is registered (expiry 2028, AWS nameservers) but publishes
+  no A record on apex or www — the website is dark and unreachable. Opbeat (Copenhagen
+  APM startup) was acquired by Elastic in 2017 and the standalone product/site were
+  shut down. No live API surface, docs, or /.well-known endpoints to harvest.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 apis: []
@@ -25,3 +42,8 @@ maintainers:
 common:
 - type: Website
   url: https://opbeat.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
