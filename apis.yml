@@ -28,7 +28,7 @@ x-status-note: 'opbeat.com is registered (expiry 2028, AWS nameservers) but publ
   no A record on apex or www — the website is dark and unreachable. Opbeat (Copenhagen
   APM startup) was acquired by Elastic in 2017 and the standalone product/site were
   shut down. No live API surface, docs, or /.well-known endpoints to harvest.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
